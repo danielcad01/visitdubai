@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+
+}
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(images/dubai7.jpg);
+	background-position: bottom;
+	background-size:cover ;
+}
+
+
+	
+
+
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+	position: relative;
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+
+}
+
+
+header .HABIBI
+{
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+}
+ 
+header ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: black;
+	border-radius: 20px;
+}header ul li a:hover,
+header ul li a.active
+{
+	background: #fff;
+	color: #2b1055;
+
+}
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+
+
